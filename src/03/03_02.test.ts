@@ -65,7 +65,7 @@ test('House should be repaired', () => {
 });
 
 
-// 04. Создайте в том же файле еще одну функцию, чтобы тесты прошли
+// 04Filter. Создайте в том же файле еще одну функцию, чтобы тесты прошли
 test('Staff should be reduced', () => {
     toFireStaff(city.governmentBuildings[0], 20);
     expect(city.governmentBuildings[0].staffCount).toBe(180);
